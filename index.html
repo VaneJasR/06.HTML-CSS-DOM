@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVIDAD 6. HTML + CSS + DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <br><br>
+    <div class="encabezado">
+    <header> 
+        <b><h1>😎HOY VA A SER UN GRAN DIA 🥳</h1></b> </header>
+    </div>
+    <br>
+    <br>
+
+    <form id="inicioSesion">
+        <input type="text" name="" id="inputUser" placeholder="Username">
+        <input type="password" name="" id="inputPass" placeholder="Contrasena">
+        <input type="submit" id="inputSubmit" value="Iniciar Sesion">
+    </form>
+
+    <br>
+    <br><br>
+    <div class="lista">
+        <B><H1>LISTA DE PRODUCTOS</H1></B> 
+
+       <h3><ul>
+            Aqua: 200 usd 👽
+            <br><br>
+            Emoción: 180 usd 🤖
+            <br> <br>
+            Alegría: 160 usd 💃
+            <br><br>
+            rescura: 150 usd 😃
+        </ul></h3> 
+
+    </div>
+
+    <div  class=box id="userBox">
+        <button onclick="Aqua()" class="Aqua"><h1><b>Aqua 👽</b></h1> </button>
+          <button onclick="Emoción()" class="Emoción"><h1><b>Emoción 🤖</b></h1></button>
+
+         <button onclick="Alegría()" class="Alegría"><h1><b>Alegría 💃</b></h1></button>
+          <button onclick="Frescura()" class="Frescura"><h1><b>Frescura 😃</b></h1></button>
+          <button onclick="fin()" class="fin"><b>finalizar ventas 😴</b></button>
+  <span id="box-user"></span>
+</div>
+
+</div>
+
+
+     <script src="./app.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,109 @@
+
+
+body{
+    background-image: url(./fondo.jpg);
+}
+
+.container{
+    border:6px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 7px 20px purple;
+    background-color: #232323 ;
+    background-size: 1000px  100px;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    bottom: -100px;
+    left: 600px;
+    text-align: center;
+
+}
+
+.box {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    width:  500px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    margin-top: 30px;
+    position: relative;
+    bottom: 240px;
+}
+
+.encabezado{
+    width: 600px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    filter:drop-shadow(10px 7px 20px green);
+}
+
+
+.lista{
+    color: white ;
+    width:  400px;
+    height: 250px;
+    box-shadow: 10px 7px 20px yellow;
+    position: relative;
+    bottom: -50px;
+    left: 150px;
+}
+
+.Aqua{
+    padding: 15px;
+    background-color: aqua;
+    filter:drop-shadow(10px 7px 20px blue);
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    bottom:70px;
+    left:  100px;
+
+}
+.Emoción{
+    padding: 15px;
+    background-color: hotpink;
+    filter:drop-shadow(10px 7px 20px deeppink);
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    bottom: 70px;
+    left:  220px;
+}
+
+.Alegría{
+    padding: 15px;
+    background-color:yellow;
+    filter:drop-shadow(10px 7px 20px red);
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    bottom: -70px;
+    right: 150px;
+}
+.Frescura{
+    padding: 15px;
+    background-color: greenyellow;
+    filter:drop-shadow(10px 7px 20px green);
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    bottom: -70px;
+    right: 30px;
+}
+
+.fin{
+    padding: 15px;
+    background-color: red;
+    filter:drop-shadow(10px 7px 20px red);
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    bottom: -200px;
+    right: 30px;
+}
